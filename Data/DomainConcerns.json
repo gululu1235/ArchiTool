@@ -1,0 +1,49 @@
+[
+  {
+    "Concern": "Mergers and acquisitions",
+    "Characteristics": [
+      "Interoperability",
+      "scalability",
+      "adaptability",
+      "extensibility"
+    ]
+  },
+  {
+    "Concern": "Time to market",
+    "Characteristics": [
+      "Agility",
+      "testability",
+      "deployability"
+    ]
+  },
+  {
+    "Concern": "User satisfaction",
+    "Characteristics": [
+      "Performance",
+      "availability",
+      "fault tolerance",
+      "testability",
+      "deployability",
+      "agility",
+      "security"
+    ]
+  },
+  {
+    "Concern": "Competitive advantage",
+    "Characteristics": [
+      "Agility",
+      "testability",
+      "deployability",
+      "scalability",
+      "availability",
+      "fault tolerance"
+    ]
+  },
+  {
+    "Concern": "Time and budget",
+    "Characteristics": [
+      "Simplicity",
+      "feasibility"
+    ]
+  }
+]

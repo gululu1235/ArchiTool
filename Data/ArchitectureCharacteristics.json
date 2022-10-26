@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "Availability",
+    "Description": "How long the system will need to be available (if 24/7, steps need to be in place to allow the system to be up and running quickly in case of any failure)."
+  },
+  {
+    "Name": "Continuity",
+    "Description": "Disaster recovery capability."
+  },
+  {
+    "Name": "Performance",
+    "Description": "Includes stress testing, peak analysis, analysis of the frequency of functions used, capacity required, and response times. Performance acceptance sometimes requires an exercise of its own, taking months to complete."
+  },
+  {
+    "Name": "Recoverability",
+    "Description": "Business continuity requirements (e.g., in case of a disaster, how quickly is the system required to be on-line again?). This will affect the backup strategy and requirements for duplicated hardware."
+  },
+  {
+    "Name": "Reliability/safety",
+    "Description": "Assess if the system needs to be fail-safe, or if it is mission critical in a way that affects lives. If it fails, will it cost the company large sums of money?"
+  },
+  {
+    "Name": "Robustness",
+    "Description": "Ability to handle error and boundary conditions while running if the internet connection goes down or if there’s a power outage or hardware failure."
+  },
+  {
+    "Name": "Scalability",
+    "Description": "Ability for the system to perform and operate as the number of users or requests increases."
+  },
+  {
+    "Name": "Configurability",
+    "Description": "Ability for the end users to easily change aspects of the software’s configuration (through usable interfaces)."
+  },
+  {
+    "Name": "Extensibility",
+    "Description": "How important it is to plug new pieces of functionality in."
+  },
+  {
+    "Name": "Installability",
+    "Description": "Ease of system installation on all necessary platforms."
+  },
+  {
+    "Name": "Leverageability/reuse",
+    "Description": "Ability to leverage common components across multiple products."
+  },
+  {
+    "Name": "Localization",
+    "Description": "Support for multiple languages on entry/query screens in data fields; on reports, multibyte character requirements and units of measure or currencies."
+  },
+  {
+    "Name": "Maintainability",
+    "Description": "How easy it is to apply changes and enhance the system?"
+  },
+  {
+    "Name": "Portability",
+    "Description": "Does the system need to run on more than one platform? (For example, does the frontend need to run against Oracle as well as SAP DB?"
+  },
+  {
+    "Name": "Upgradeability",
+    "Description": "Ability to easily/quickly upgrade from a previous version of this application/solution to a newer version on servers and clients."
+  },
+  {
+    "Name": "Accessibility",
+    "Description": "Access to all your users, including those with disabilities like colorblindness or hearing loss."
+  },
+  {
+    "Name": "Archivability",
+    "Description": "Will the data need to be archived or deleted after a period of time? (For example, customer accounts are to be deleted after three months or marked as obsolete and archived to a secondary database for future access.)"
+  },
+  {
+    "Name": "Authentication",
+    "Description": "Security requirements to ensure users are who they say they are."
+  },
+  {
+    "Name": "Authorization",
+    "Description": "Security requirements to ensure users can access only certain functions within the application (by use case, subsystem, webpage, business rule, field level, etc.)."
+  },
+  {
+    "Name": "Legal",
+    "Description": "What legislative constraints is the system operating in (data protection, Sarbanes Oxley, GDPR, etc.)? What reservation rights does the company require? Any regulations regarding the way the application is to be built or deployed?"
+  },
+  {
+    "Name": "Privacy",
+    "Description": "Ability to hide transactions from internal company employees (encrypted transactions so even DBAs and network architects cannot see them)."
+  },
+  {
+    "Name": "Security",
+    "Description": "Does the data need to be encrypted in the database? Encrypted for network communication between internal systems? What type of authentication needs to be in place for remote user access?"
+  },
+  {
+    "Name": "Supportability",
+    "Description": "What level of technical support is needed by the application? What level of logging and other facilities are required to debug errors in the system?"
+  },
+  {
+    "Name": "Usability/achievability",
+    "Description": "Level of training required for users to achieve their goals with the application/solution. Usability requirements need to be treated as seriously as any other architectural issue."
+  }
+]
